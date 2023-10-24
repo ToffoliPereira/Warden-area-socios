@@ -1,0 +1,63 @@
+.contato {
+    height: 80vh;
+    width: 100%;
+    background-image: url(../images/fundocontato.png);
+    background-repeat: no-repeat;
+}
+
+.contato form {
+    width: 80%;
+} 
+
+.contato input {
+    color: #fff;
+    background-color: transparent;
+}
+
+.contato input::placeholder {
+    color: #fff;
+    background-color: transparent;
+}
+
+.contato input:focus {
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #4599A1;
+}
+
+.contato select {
+    color: #fff;
+    background-color: transparent;
+}
+
+.contato select:focus {
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #4599A1;
+}
+
+.contato select:focus-visible {
+    background-color: rgb(0, 0, 0);
+
+}
+
+.contato textarea {
+    color: #fff;
+    background-color: transparent;  
+    resize: none;
+}
+
+.contato textarea::placeholder {
+    color: #fff;
+    background-color: transparent;
+}
+
+.contato textarea:focus {
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #4599A1;
+}
+
+.contato h2 {
+    color: #4599A1;
+}

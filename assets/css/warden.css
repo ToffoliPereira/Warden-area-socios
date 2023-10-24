@@ -1,0 +1,58 @@
+.warden {
+    height: 80vh;
+    width: 100%;
+    background-image: url(../images/fundowarden0.png);
+}
+
+.armas {
+    height: 80vh;
+    width: 100%;
+    background-image: url(../images/fundoarmas.png);
+}
+
+.videoarma {
+    width: 60%;
+}
+
+.videoarma video {
+    width: 100%;
+}
+
+.hardware {
+    height: 80vh;
+    width: 100%;
+    background-image: url(../images/fundohardware1.png);
+}
+
+.accordion-item {
+    border: none;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button {
+    color: #ffffff51 !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #fff !important;
+}
+
+.accordion-button::after {
+    content: '+';
+    background-image: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+    content: '-';
+    background-image: none;
+}
+
+.videos {
+    height: 80vh;
+    width: 100%;
+    background-image: url(../images/fundovideo.png);
+    background-repeat: no-repeat;
+}

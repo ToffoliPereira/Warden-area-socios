@@ -1,0 +1,54 @@
+body {
+    background-image: url(../images/Fundo\ acesso.png);
+    font-family: 'Noto Sans', sans-serif;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.btn-verde {
+    border: 1px solid #4599A1;
+    color: #4599A1;
+}
+
+.btn-verde:hover {
+    color: #fff;
+    background-color: #4599A1 !important;
+}
+
+
+.bg-verde {
+    background-color: #4599A1;
+    color: #4599A1;
+}
+
+h2 {
+    color: #4599A1;
+}
+
+form {
+    background-color: #000000b7;
+}
+
+label {
+    color: #fff;
+}
+
+input {
+    color: #fff !important;
+    background-color: transparent !important;
+}
+
+input::placeholder {
+    color: #fff !important;
+    background-color: transparent !important;
+}
+
+input:focus {
+    border: 1px solid #4599A1 !important;
+}

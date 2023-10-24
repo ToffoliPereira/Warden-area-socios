@@ -1,0 +1,25 @@
+.hounds {
+    height: 80vh;
+    width: 100%;
+    background-image: url(../images/fundowarhounds.png);
+}
+
+.nomes button{
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    transition: .5s;
+}
+
+.nomes button:hover {
+    color: #4599A1;
+}
+
+.nome {
+    color: #fff;
+    transition: .5s;
+}
+
+.nome:hover {
+    color: #4599A1;
+}

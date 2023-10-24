@@ -1,0 +1,32 @@
+.eventos {
+    height: 80vh;
+    width: 100%;
+    background-image: url(../images/fundoeventos.png);
+    background-repeat: no-repeat;
+}
+
+.card-verde {
+    border: 1px solid #4599A1;
+    color: #4599A1;
+    transition: .5s;
+}
+
+.card-verde:hover {
+    box-shadow: 5px 5px 0px 0px #fff;
+    transform: scale(1.02);
+}
+
+.card-branco {
+    border: 1px solid #fff;
+    color: #fff;
+    transition: .5s;
+}
+
+.card-branco:hover {
+    box-shadow: 5px 5px 0px 0px #4599A1;
+    transform: scale(1.02);
+}
+
+.card-branco h5 {
+    color: #4599A1;
+}

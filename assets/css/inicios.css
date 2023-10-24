@@ -1,0 +1,37 @@
+.logo {    
+    max-height: 7vh;
+}
+
+.logocelular {    
+    max-height: 5vh;
+}
+
+.secoes {
+    transition: .5s !important;
+}
+
+.secoes:hover {
+    color: #4599A1 !important;
+}
+
+nav li {
+    transition: .5s;
+}
+
+nav li:hover {
+    transform: scale(1.1);
+}
+
+.navbar-toggler {
+    box-shadow: none !important;
+    background-color: #0e0e0ed0;
+}
+
+.navbar {
+    width: 100%;
+    z-index: 2;
+}
+
+.inicio {
+    width: 100%;
+}

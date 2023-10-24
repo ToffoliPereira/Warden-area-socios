@@ -1,0 +1,181 @@
+@media (max-width: 1919px) {
+    .warden {
+        background-image: url(../images/fundowarden1.png);
+    }
+    
+    .armas {
+        background-image: url(../images/fundoarmas1.png);
+    }
+    
+    .hardware {
+        background-image: url(../images/fundohardware0.png);
+    }
+    
+    .videos {
+        background-image: url(../images/fundovideo1.png);
+    }
+    
+    .hounds {
+        background-image: url(../images/fundowarhounds1.png);
+    }
+    
+    .eventos {
+        background-image: url(../images/fundoeventos1.png);
+    }
+    
+    .negocios {
+        background-image: url(../images/fundonegocios1.png);
+    }
+    
+    .imagens {
+        background-image: url(../images/fundoimagens1.png);
+    }
+    
+    .contato {
+        background-image: url(../images/fundocontato1.png);
+    }
+    
+}
+
+@media (min-width: 1235px) {
+    .nomemetade {
+        display: none;
+    }
+
+    .nomesimples {
+        display: none;
+    }
+}
+
+@media (max-width: 1234px) {
+    .nomeinteiro {
+        display: none;
+    }
+
+    .rodape {
+        height: 60vh;
+    }
+}
+
+@media (min-width: 992px) {
+    .ca2 {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .logo {
+        display: none;
+    }
+    
+    .navbar {
+        position: fixed !important;
+    }
+    
+    ul {
+        background-color: rgba(0, 0, 0, 0.809);
+    }
+    
+    .videoarma {
+        width: 80%;
+    }
+    
+    .videos {
+        height: 160vh;
+    }
+
+    .card-verde {
+        width: 80%;
+    }
+
+    .eventos {
+        height: 160vh;
+    }
+
+    .imagens {
+        height: 130vh;
+    }
+
+    .ca1 {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .negocios {
+        height: 200vh;
+    }
+
+    .imagens {
+        height: 200vh;
+    }
+
+    .contato {
+        height: 140vh;
+    }
+}
+
+@media (max-width: 690px ) {
+    .videos {
+        height: 80vh;    
+    }
+
+    .hardware img {
+        width: 80%;
+    }
+
+    
+    
+}
+
+@media (max-width: 605px) {
+    .nomemetade {
+        display: none;
+    }
+
+    .hardware {
+        height: 120vh;
+    }
+
+    .videos {
+        height: 120vh;
+    }
+
+    .hounds {
+        height: 120vh;
+    }
+
+    .eventos {
+        height: 200vh;
+    }
+
+    .negocios {
+        height: 270vh;
+    }
+
+    .imagens {
+        height: 270vh;
+    }
+}
+
+@media (min-width: 604px) {
+    .nomesimples {
+        display: none;
+    }
+}
+
+@media (max-width: 420px) {
+    .wh {
+        display: none;
+    }
+
+    .rodape {
+        height: 80vh;
+    }
+}
+
+@media (max-width: 369px) {
+    .nomes {
+        font-size: 15px;
+    }
+}

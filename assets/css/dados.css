@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.apresentacao {
+    background-image: url(../images/apresentacao.png);
+}
+
+.logo {
+    width: 10%;
+}
+
+h2 {
+    margin: 0px -12px;
+}
+
+.linha {
+    height: 90vh;
+}
+
+span {
+    color: #4599A1;
+}
+
+.btn-verde {
+    border: 1px solid #4599A1;
+}
+
+.btn-verde:hover {
+    color: #fff;
+    background-color: #4599A1 !important;
+}
+
+.bg-verde {
+    background-color: #4599A1;
+    color: #4599A1;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+    background-color: rgb(30, 29, 29);
+}
+
+::-webkit-scrollbar-thumb{
+    width: 5px;
+    border-radius: 10px;
+    background-color: #4599A1;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        width: 20%;
+    }
+}
